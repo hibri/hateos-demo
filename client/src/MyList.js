@@ -45,7 +45,7 @@ class MyList extends Component {
 	}
 
 	navigate(link, event) {
-		event.preventDefault();
+		event.preventDefault()
 		console.log(link);
 		this.fetchData(link.href)
 	}
